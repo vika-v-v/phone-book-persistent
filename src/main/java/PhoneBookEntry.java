@@ -24,4 +24,20 @@ public class PhoneBookEntry {
     public String toString() {
         return "Phone Number of " + name + " : "  + phoneNumber;
     }
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public boolean isBusiness() {
+        return isBusiness;
+    }
 }
